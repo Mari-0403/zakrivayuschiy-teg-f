@@ -358,3 +358,9 @@
     block-size: 28px;
   }
 }
+
+@media only screen and (max-device-width: 430px) and (-webkit-min-device-pixel-ratio: 2) and (hover: none) and (pointer: coarse) {
+  .page {
+    background-attachment: scroll;
+  }
+}
