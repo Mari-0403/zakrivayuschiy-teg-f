@@ -246,6 +246,10 @@
 /* СТИЛИ ДИАЛОГА */
 .save__dialog {
   inline-size: clamp(21.313rem, 1.127vw + 21.048rem, 22.063rem);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
   padding: 30px;
 }
 
@@ -255,13 +259,8 @@
 }
 
 
-/* В ТЗ указано: "меняйте свойство display у диалога только в состоянии opened" */
 .save__dialog[open] {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
 }
 
 .dialog__block {
